@@ -1,6 +1,8 @@
 public class Info { // класс для вывода информации
     public static void main(String[] args) {
 
+        System.out.print("Добавленная строка с изменениями для пункта 3"); // синий
+
         System.out.println("_______________________________________________________________________________________________________________");
 
         Yogurt yogurt1 = new Yogurt ("03/07/2021", 12, 10, "strawberry", 7, true);
